@@ -1,8 +1,10 @@
 
-
+//import the Calculator class
 import com.i27academy.builds.Calculator
 
-//creating an instance of Calculator class
+//creating an instance of Calculator 
+//pass the current pipeline context using 'this'
+ 
 Calculator calculator = new Calculator(this)
 pipeline {
     agent any 
