@@ -1,8 +1,6 @@
 
 package com.i27academy.builds;
-class Calculator 
-
-{
+class Calculator {
 
     //variable definition
     def jenkins // holds the jenkins context
@@ -22,10 +20,6 @@ class Calculator
     //methods
     def add(firstNumber, secondNumber){
         //body
-        //firstNumber = 10
-        //secondNumber = 20
-        //sum = firstNumber + secondNumber
-        //println sum
         return firstNumber+secondNumber
     }
     def multiply(firstNumber, secondNumber){
