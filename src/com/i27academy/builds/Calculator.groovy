@@ -1,29 +1,13 @@
-
 package com.i27academy.builds;
 class Calculator {
-
-    //variable definition
-    def jenkins // holds the jenkins context
-
-    //constructor to initiate the context
-    Calculator(jenkins) {
-
-        //this.jenkins Refers to the jenkins variable defined 
-        //within the current class (Calculator)
-        //Passing 'this' to the constructor gives the 
-        //Calculator access to Jenkins context
-
-        this.jenkins = jenkins 
-                       //jenkins-->constructor parameter
+    def jenkins  //variable definition to hold jenkins context 
+    Calculator(jenkins){      // constructor to initiate the context
+        this.jenkins = jenkins   //gives Calculator access to jenkins context
     }
 
-    //methods
-    def add(firstNumber, secondNumber){
-        //body
-        return firstNumber+secondNumber
-    }
-    def multiply(firstNumber, secondNumber){
-        //body
-        return firstNumber*secondNumber
-    }
+    def add(firstNumber, secondNumber)
+    return firstNumber + secondNumber
+
+    def multiply(firstNumber, secondNumber)
+    return firstNumber*secondNumber
 }
