@@ -5,9 +5,11 @@ class Calculator {
         this.jenkins = jenkins   //gives Calculator access to jenkins context
     }
 
-    def add(firstNumber, secondNumber)
+    def add(firstNumber, secondNumber){
     return firstNumber + secondNumber
+    }
 
-    def multiply(firstNumber, secondNumber)
+    def multiply(firstNumber, secondNumber){
     return firstNumber*secondNumber
+    }
 }
